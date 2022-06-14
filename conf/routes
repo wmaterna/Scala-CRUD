@@ -1,0 +1,24 @@
+# Routes
+
+
+GET     /car                     controllers.CarBrandController.getAll
+GET     /car/:id                 controllers.CarBrandController.getById(id: Long)
+POST    /car                     controllers.CarBrandController.addNewItem
+DELETE  /car/:id                 controllers.CarBrandController.deleteElement(id: Long)
+PUT     /car/:id                 controllers.CarBrandController.updateCar(id: Long)
+
+
+
+GET     /model                   controllers.CarModelController.getAll()
+GET     /model/:id               controllers.CarModelController.getById(id: Long)
+POST    /model                   controllers.CarModelController.addNewItem
+DELETE  /model/:id               controllers.CarModelController.deleteElement(id: Long)
+PUT     /model/:id               controllers.CarModelController.updateCar(id: Long)
+
+GET     /salon                   controllers.CarSalonController.getAll()
+GET     /salon/:id               controllers.CarSalonController.getById(id: Long)
+POST    /salon                   controllers.CarSalonController.addNewItem
+DELETE  /salon/:id               controllers.CarSalonController.deleteElement(id: Long)
+PUT     /salon/:id               controllers.CarSalonController.updateSalon(id: Long)
+
+
